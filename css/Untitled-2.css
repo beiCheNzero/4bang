@@ -1,0 +1,211 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(../images/../images/1.png.png);/*背景加黑*/
+	height: 100vh;
+	background-size:  cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float:right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;/*横着排列*/
+	
+}
+
+.main-nav li a
+{
+	color :white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+
+}
+
+.logo img
+{
+	width: 123px;
+	height:auto;
+	float: left;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+
+.row
+{
+	max-width: 1200px;/*logo位置*/
+	margin:auto;
+}
+
+
+
+.button
+{
+	margin-top: 0px;/*顶部距离*/
+	margin-left:580px;/*两框框向左移动的像素*/
+}
+
+.btn
+{
+	border: 1px solid goldenrod;
+	padding: 10px 30px;/*两小框框的长宽像素*/
+    color: white;
+	text-decoration: none;
+	margin-right: 5px;/*两框之间距*/
+	font-size: 13px;/*框内字体大小*/
+	text-transform:uppercase;
+}
+
+.btn-one:hover
+{
+	background-color: goldenrod;
+	font-family: "Roboto",sans-serif;
+	transition : all 0.3s ease-in;
+}
+
+.btn-two:hover
+{
+	background-color: goldenrod;
+	font-family: "Roboto",sans-serif;
+	transition : all 0.3s ease-in;
+}
+
+.page-footer
+{
+	padding:4px;
+	background-color: black;
+	color:white;
+	text-align:center;
+}
+
+
+.demo-music{
+	position:absolute;
+	width: 100%;
+	height: 40px;
+	top: 600px;
+	left: 0px;
+}
+.demo-music .music{
+	width: 80px;
+	height: 100%;
+	top: 95%;
+	left: 10%;
+	webkit-transform: translate(-40px,-25px);
+	transform: translate(-40px,-25px);
+	position: absolute;
+}
+.demo-music #waves{
+	width: 80px;
+	height: 100%;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+.demo-music #waves li{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 12%;
+	overflow: hidden;
+	margin-right: 1px;
+}
+.demo-music #waves li span{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	height: 100%;
+	width: 100px;
+	background: radial-gradient(transparent 50%,rgba(255,162,162,0.9) 100%);
+}
+.demo-music #waves .li1 span{
+	animation: waves 1s linear 0s infinite alternate;
+  -webkit-animation: waves 1s linear 0s infinite alternate;
+}
+.demo-music #waves .li2 span{
+	animation: waves 1.5s linear 0s infinite alternate;
+  -webkit-animation: waves 1.5s linear 0s infinite alternate;
+}
+.demo-music #waves .li3 span {
+	animation: waves 0.9s linear 0s infinite alternate;
+  -webkit-animation: waves 0.9s linear 0s infinite alternate;
+}
+.demo-music #waves .li4 span {
+  animation: waves 1.2s linear 0s infinite alternate;
+  -webkit-animation: waves 1.2s linear 0s infinite alternate;
+}
+
+.demo-music #waves .li5 span {
+  animation: waves 1.8s linear 0s infinite alternate;
+  -webkit-animation: waves 1.8s linear 0s infinite alternate;
+}
+
+.demo-music #waves .li6 span {
+  animation: waves 0.5s linear 0s infinite alternate;
+  -webkit-animation: waves 0.5s linear 0s infinite alternate;
+}
+@-webkit-keyframes waves{
+	10% {height: 20%;}
+	20% {height: 60%;}
+	40% {height: 40%;}
+	60% {height: 100%;}
+	80% {height: 40%;}
+	90% {height: 60%;}
+	100% {height: 10%;}
+}
+@keyframes waves{
+	10% {height: 20%;}
+	20% {height: 60%;}
+	40% {height: 40%;}
+	60% {height: 100%;}
+	80% {height: 40%;}
+	90% {height: 60%;}
+	100% {height: 10%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

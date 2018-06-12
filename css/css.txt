@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font:inherit;
+}
+/*通用样式*/
+body{
+	font:14px 微软雅黑, 黑体,Verdana,Arial,sans-serif;
+	color:#333333;
+	background-color:antiquewhite;
+	border-top:8px solid#A78560;
+}
+ul{
+	list-style-type:none;
+}
+/*外层盒子*/
+.wrap{
+	width:960px;
+	margin:0 auto;
+}
+/*头部*/
+.top-header{
+	margin: 10px 0;
+	height: 120px;
+}
+/*主内容区域*/
+main{
+	background-color:#eeeeee;
+	padding:20px;
+}
+/*logo*/
+.tea-logo{
+	float:left;	
+}
+
+/*导航*/
+.top-menu{
+	float:left;
+	margin-top:73px;
+	margin-left:30px;
+}
+.top-menu ul li{
+	display;inline;
+	background-color:burlywood;
+	padding:5px 10px;
+	margin: 0 5px;
+}
+
+.top-menu ul li.selected,.top-menu ul li:hover{
+	background-color:bisque;
+}
+
+.top-menu ul li a:link,.top-menu ul a:visited{
+	color:aquamarine;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+/*页脚*/
+.page-color{
+	clear:both;
+	pedding: 15px;
+	margin-top: 10px;
+	background-color:antiquewhite;
+	color:aqua
+	text-align:center;
+	font-size: 90%;
+}
+

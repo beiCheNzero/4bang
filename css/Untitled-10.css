@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.box
+{
+	float: left;
+	width: 400px;
+	height: 100%;
+	margin:10px 15px 30px 15px;
+		
+}

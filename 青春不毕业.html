@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tab Image Gallery</title>
+    <link rel="stylesheet" href="css/Untitled-6.css">
+  </head>
+  <body>
+	  <p align="center">点击查看大图</p>
+<div class="images">
+  <img onclick="changeimg(this)" src="images/合影/1.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/2.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/3.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/4.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/5.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/6.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/7.jpg" alt="">
+  <img onclick="changeimg(this)" src="images/合影/8.jpg" alt="">
+</div>
+
+<div class="pre">
+  <a onclick="this.parentElement.style.display='none'" class="ion-close"></a>
+	<p align="center">
+  <img id="p" src="1.jpg" alt="">
+	</p>
+</div>
+
+<script type="text/javascript">
+function changeimg(image) {
+  var p = document.getElementById("p");
+  p.src = image.src;
+  p.parentElement.style.display ="block";
+}
+
+
+
+</script>
+	  <li><a href="主界面.html"><img src="images/return.png"></a></li>
+	  
+	  
+  </body>
+</html>
+

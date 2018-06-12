@@ -1,0 +1,38 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.images
+{
+	overflow: hidden;
+	text-align: center;
+}
+
+.images img
+{
+	width: 128px;
+	height: 78px;
+	margin: 10px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.images img:hover
+{
+	opacity: 0.8;
+}
+
+.pre
+{
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+}
+.pre img
+{
+	width: 68%;
+	height: 68%;
+}
+
